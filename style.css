@@ -116,3 +116,39 @@ line-height: normal;
 .img-about{
   text-align: center;
 }
+
+.sec-about {
+  margin-top: 10%;
+}
+
+.card-project{
+  border: 1px solid #FFF;
+background: #48FFD5;
+box-shadow: 5px 5px 1px 0px #FFF;
+}
+
+.hm-project-name{
+  color: #00223A;
+font-family: Nova Square;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 10px 15px;
+}
+
+.boton-redondo{
+  text-align: right;
+  margin: 15px;
+}
+
+.btn-redondo{
+  border-radius: 50px;
+background-color: #00101b;
+color: #48ffd5;
+}
+
+.btn-redondo:hover{
+  border: 1px solid #00101b;
+  color: #00101b;
+}
