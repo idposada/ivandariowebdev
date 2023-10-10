@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Open+Sans:wght@300;400;700&display=swap');
+
+
+html{
+  font-family: 'Nova Square', sans-serif;
+  background: radial-gradient(50% 50% at 50% 50%, #00362B 0%, #001320 100%) !important;
+    background-repeat: no-repeat !important;
+}
+
+
+nav{
+  color: #48FFD5 !important;
+  padding: 0px 2% 0 2%;
+  background-color: #ee6e7300;
+}
+
+nav .nav-wrapper {
+
+  padding: 1% 0 1% 0 !important;
+}
+
+.brand-logo > img:nth-child(1) {
+  width: 46%;
+}
+
+.btn-menu{
+  border-radius: 15px;
+border: 1px solid #48FFD5;
+background-color: #fff0;
+color: #48FFD5;
+}
