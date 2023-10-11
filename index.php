@@ -1,23 +1,23 @@
 <?php include('header.php'); ?>
 <main>
   <section class="intro">
-    <div class="row ">
+    <div class="row animate__animated animate__slideInDown">
       <div class="col m8 s12 titulo-home">
         IVAN DARIO POSADA SUAREZ
       </div>
-      <div class="col m4 s12">
+      <div class="col m4 s12 img-home">
         <img src="img/logo-ivan-wev-dev 1.png" alt="">
       </div>
     </div>
 
     <div class="row">
-      <div class="col m4 s12 skills">
+      <div class="col m4 s12 skills animate__animated animate__fadeInUp">
         Web Developer
       </div>
-      <div class="col m4 s12 skills">
+      <div class="col m4 s12 skills animate__animated animate__fadeInUp">
         IT Consulting
       </div>
-      <div class="col m4 s12 skills">
+      <div class="col m4 s12 skills animate__animated animate__fadeInUp">
         Project Manager
       </div>
 
@@ -29,10 +29,10 @@
     <h2>ABOUT</h2>
     </div>
     <div class="row">
-      <div class="col m6 s12 text-about">
+      <div class="col m6 s12 text-about" data-aos="fade-up">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices iaculis sem nec sodales. In nec
       </div>
-      <div class="col m6 s12 img-about">
+      <div class="col m6 s12 img-about" data-aos="fade-up">
         <img src="img/img-perfil1png.png" alt="">
       </div>
     </div>
@@ -51,7 +51,7 @@
     <div class="row">
 
         <div class="col m4 s12">
-          <div class="card card-project">
+          <div class="card card-project" data-aos="zoom-in">
             <div class="hm-project-name">
               DelaEspriella Style Ecommerce
             </div>
@@ -64,7 +64,7 @@
         </div>
 
         <div class="col m4 s12">
-          <div class="card card-project">
+          <div class="card card-project" data-aos="zoom-in">
             <div class="hm-project-name">
               DelaEspriella Style Ecommerce
             </div>
@@ -78,7 +78,7 @@
 
 
         <div class="col m4 s12">
-          <div class="card card-project">
+          <div class="card card-project" data-aos="zoom-in">
             <div class="hm-project-name">
               DelaEspriella Style Ecommerce
             </div>
@@ -100,33 +100,36 @@
       </div>
 
     <div class="row">
-      <div class="col m12 s12">
-            <div class="contact-form">
+
+        <div class="contact-form ">
+
+
               <form class="" action="index.html" method="post">
 
 
-              <div class="input-field col m12">
+              <div class="input-field ">
                 <input id="last_name" type="text" class="validate">
                 <label for="last_name">Your Name</label>
               </div>
 
-              <div class="input-field col m12">
+              <div class="input-field ">
                 <input id="email" type="text" class="validate">
                 <label for="email">Your Email</label>
               </div>
 
-              <div class="input-field col m12">
+              <div class="input-field ">
                 <textarea id="textarea1" class="materialize-textarea"></textarea>
                 <label for="textarea1">Your Message</label>
               </div>
 
-              <div class="center enviar">
-       <input type="submit" name="iniciar" value="Send Message" class="waves-effect waves-light btn btn-enviar center">
-         </div>
+              <div class="center enviar ">
+                <input type="submit" name="iniciar" value="Send Message" class="waves-effect waves-light btn btn-enviar center">
+              </div>
 
               </form>
-            </div>
-      </div>
+                    </div>
+
+
     </div>
   </section>
 </main>

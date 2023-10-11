@@ -154,8 +154,9 @@ color: #48ffd5;
 }
 
 .contact-form {
-  padding: 0 15% 0 15%;
-  /*! border: 1px solid; */
+   padding: 0 15% 0 15%;
+  border: 1px solid #48ffd5;
+  border-radius: 15px;
 }
 
 textarea{
@@ -173,4 +174,49 @@ input[type="text"]{
 
 .input[type="submit"]{
   font-family: Nova Square !important;
+}
+
+.sec-contact {
+  margin-bottom: 69px;
+}
+
+@media only screen and (max-width: 428px)   {
+
+  .brand-logo > img:nth-child(1) {
+    width: 76%;
+    margin-left: 65%;
+  }
+
+  .titulo-home {
+  color: #48FFD5;
+text-shadow: 4px 4px 1px #FFF;
+font-family: Nova Square;
+font-size: 65px;s
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  text-align: center;
+}
+
+.img-home{
+  text-align: center;
+}
+
+.skills {
+  color: #FFF;
+font-family: Nova Square;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+  margin: 4%;
+}
+
+.contact-form {
+  padding: 0 6% 18px 9%;
+  border: 1px solid #48ffd5;
+  border-radius: 15px;
+}
+
 }

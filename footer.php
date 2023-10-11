@@ -12,7 +12,9 @@
 
 
   <!--JavaScript at end of body for optimized loading-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script>  AOS.init(); </script>
   <script type="text/javascript">
   document.addEventListener('DOMContentLoaded', function() {
   var elems = document.querySelectorAll('.sidenav');
