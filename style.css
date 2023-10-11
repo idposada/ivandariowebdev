@@ -152,3 +152,25 @@ color: #48ffd5;
   border: 1px solid #00101b;
   color: #00101b;
 }
+
+.contact-form {
+  padding: 0 15% 0 15%;
+  /*! border: 1px solid; */
+}
+
+textarea{
+  color: #fff !important;
+}
+
+
+input[type="text"]{
+    color: #fff !important;
+}
+
+.btn-enviar{
+  border-radius: 15px;
+}
+
+.input[type="submit"]{
+  font-family: Nova Square !important;
+}
