@@ -180,6 +180,38 @@ input[type="text"]{
   margin-bottom: 69px;
 }
 
+.card-skill{
+  border: 1px solid #FFF;
+background: #48FFD5;
+box-shadow: 5px 5px 1px 0px #FFF;
+  padding: 6%;
+}
+
+.card-skill:hover{
+    background: #48FFD5B0;
+    box-shadow: 2px 2px 1px 0px #FFF;
+}
+.skill-name {
+  color: #00223A;
+  text-shadow: 2px 2px 0px #FFF;
+  font-family: Nova Square;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.skill-text {
+  color: #001320;
+  font-family: Nova Square;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+
 @media only screen and (max-width: 428px)   {
 
   .brand-logo > img:nth-child(1) {

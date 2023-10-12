@@ -20,6 +20,63 @@
     </div>
   </section>
 
+  <section class="sec-skill-int">
+    <div class="row">
+      <div class="col m6 s12">
+        <div class="card card-skill">
+          <div class="skill-name">
+            WEB DEVELOPER
+            <hr>
+          </div>
+
+          <div class="skill-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices iaculis sem nec sodales. In nec
+          </div>
+        </div>
+      </div>
+
+      <div class="col m6 s12">
+        <div class="card card-skill">
+          <div class="skill-name">
+            PROJECT MANAGER
+            <hr>
+          </div>
+
+          <div class="skill-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices iaculis sem nec sodales. In nec
+          </div>
+        </div>
+      </div>
+
+      <div class="col m6 s12">
+        <div class="card card-skill">
+          <div class="skill-name">
+            PROJECT MANAGER
+            <hr>
+          </div>
+
+          <div class="skill-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices iaculis sem nec sodales. In nec
+          </div>
+        </div>
+      </div>
+
+      <div class="col m6 s12">
+        <div class="card card-skill">
+          <div class="skill-name">
+            UX - UI
+            <hr>
+          </div>
+
+          <div class="skill-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices iaculis sem nec sodales. In nec
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
 
 
 <?php include('footer.php'); ?>
