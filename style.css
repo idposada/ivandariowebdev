@@ -211,6 +211,23 @@ box-shadow: 5px 5px 1px 0px #FFF;
 }
 
 
+.pj-project-name{
+  color: #00223A;
+  font-family: Nova Square;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.card-project-int {
+  border: 1px solid #FFF;
+  background: #48FFD5;
+  box-shadow: 5px 5px 1px 0px #FFF;
+  padding: 29px;
+}
+
+
 
 @media only screen and (max-width: 428px)   {
 
