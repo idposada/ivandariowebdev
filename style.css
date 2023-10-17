@@ -70,7 +70,17 @@ font-weight: 400;
 line-height: normal;
 }
 
-.titulo-home{
+.titulo-home {
+  color: #48FFD5;
+text-shadow: 4px 4px 1px #FFF;
+font-family: Nova Square;
+font-size: 99px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.titulo-home h1{
   color: #48FFD5;
 text-shadow: 4px 4px 1px #FFF;
 font-family: Nova Square;
@@ -227,6 +237,14 @@ box-shadow: 5px 5px 1px 0px #FFF;
   padding: 29px;
 }
 
+.ln-project{
+  border: 2px solid #48FFD5;
+
+}
+
+.project-links{
+
+}
 
 
 @media only screen and (max-width: 428px)   {

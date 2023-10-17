@@ -3,7 +3,7 @@
   <section class="intro">
     <div class="row animate__animated animate__slideInDown" data-aos="fade-up">
       <div class="col m12 s12 titulo-home">
-        PROJECTS
+    <h1>PROJECTS</h1>
       </div>
     </div>
 
@@ -14,21 +14,18 @@
 
 
   <section class="project-list">
-    <div class="row">
-
-      <div class="col l6 m6 s12">
-
-        <div class="card card-project-int">
-          <div class="pj-project-name">
-            DelaEspriella Style Ecommerce
+    <div class="row project">
+      <div class="col m6 s12">
+        <div class="tit2-home row">
+          <h2>BLOG QUE COMO Y DONDE ESTUDIAR</h2>
           </div>
-        </div>
+          <hr class="ln-project">
+          <div class="project-links">
+
+          </div>
 
       </div>
 
-      <div class="col l6 m6 s12">
-
-      </div>
 
     </div>
   </section>
