@@ -246,6 +246,32 @@ box-shadow: 5px 5px 1px 0px #FFF;
 
 }
 
+.project-list {
+  margin-top: 50px;
+}
+.img-project-externa {
+  border: 1px solid #48FFD5;
+  box-shadow: 5px 5px 1px 0px #FFF;
+  padding: 2%;
+}
+
+.project-links {
+  text-align: center;
+  margin-top: 13%;
+}
+
+.btn-project{
+  border-radius: 15px;
+border: 1px solid #48FFD5;
+color: #00223A;
+background-color: #48FFD5;
+  width: 37%;
+}
+
+.img-project-externa img{
+ width: 100%;
+}
+
 
 @media only screen and (max-width: 428px)   {
 
@@ -284,6 +310,21 @@ text-align: center;
   padding: 0 6% 18px 9%;
   border: 1px solid #48ffd5;
   border-radius: 15px;
+}
+
+.titulo-home h1 {
+  font-size: 65px;
+  text-align: center;
+}
+
+.project-links {
+  text-align: center;
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+
+ .img-project-externa img{
+  width: 100%;
 }
 
 }

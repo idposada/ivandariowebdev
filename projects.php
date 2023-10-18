@@ -18,12 +18,42 @@
       <div class="col m6 s12">
         <div class="tit2-home row">
           <h2>BLOG QUE COMO Y DONDE ESTUDIAR</h2>
-          </div>
+        </div>
           <hr class="ln-project">
           <div class="project-links">
-
+            <a class="waves-effect waves-light btn btn-project">VIEW DETAILS</a>
+            <a class="waves-effect waves-light btn btn-project">VISIT SITE</a>
           </div>
 
+      </div>
+
+      <div class="col m6 s12">
+        <div class="img-project-externa" data-aos="fade-left">
+          <img src="img/project-img.png" alt="">
+        </div>
+      </div>
+
+
+    </div>
+    <hr>
+
+    <div class="row project">
+      <div class="col m6 s12 ">
+        <div class="tit2-home row">
+          <h2>BLOG QUE COMO Y DONDE ESTUDIAR</h2>
+        </div>
+          <hr class="ln-project">
+          <div class="project-links">
+            <a class="waves-effect waves-light btn btn-project">VIEW DETAILS</a>
+            <a class="waves-effect waves-light btn btn-project">VISIT SITE</a>
+          </div>
+
+      </div>
+
+      <div class="col m6 s12">
+        <div class="img-project-externa" data-aos="fade-left">
+          <img src="img/project-img.png" alt="">
+        </div>
       </div>
 
 
