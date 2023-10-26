@@ -164,7 +164,7 @@ color: #48ffd5;
 }
 
 .contact-form {
-   padding: 0 15% 0 15%;
+     padding: 0 15% 14px 15%;
   border: 1px solid #48ffd5;
   border-radius: 15px;
 }
@@ -188,6 +188,8 @@ input[type="text"]{
 
 .sec-contact {
   margin-bottom: 69px;
+  margin-top: 2%;
+
 }
 
 .card-skill{
@@ -321,6 +323,25 @@ font-weight: 400;
 line-height: normal;
 text-align: center;
 }
+
+[type="text"], [type="email"] {
+  border: 1px solid #48ffd5 !important;
+  border-radius: 30px !important;
+
+}
+
+textarea {
+  height: 108px;
+  border: 1px solid rgb(72, 255, 213) !important;
+  border-radius: 30px !important;
+  padding: 3% !important;
+}
+
+input::placeholder {
+  margin-left: 5px !important;
+}
+
+
 
 
 
