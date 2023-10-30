@@ -342,7 +342,34 @@ input::placeholder {
 }
 
 
+.contact-link{
+  color: #48ffd5;
+border: 2px solid #48ffd5;
+padding-top: 0%;
+padding-bottom: 0%;
+font-size: 27px;
+padding-left: 2%;
+border-radius: 34px;
+text-align: center;
+margin: 2%;
+box-shadow: 7px 4px 6px #1e1e1e;
+}
 
+.contact-link p{
+  font-size: 16px;
+  color: #fff;
+  margin: 0px;
+}
+
+
+.social-buttons {
+  margin-top: 2%;
+}
+
+.btn-redes{
+    font-size: 24px;
+    background-color: #48ffd5 !important;
+    color: #001320;
 
 
 
