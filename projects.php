@@ -29,7 +29,7 @@
 
       <div class="col m6 s12">
         <div class="img-project-externa" data-aos="fade-left">
-          <img src="img/project-img.png" alt="">
+          <img src="<?php bloginfo('template_url'); ?>/img/project-img.png" alt="">
         </div>
       </div>
 
@@ -52,7 +52,7 @@
 
       <div class="col m6 s12">
         <div class="img-project-externa" data-aos="fade-left">
-          <img src="img/project-img.png" alt="">
+          <img src="<?php bloginfo('template_url'); ?>/img/project-img.png" alt="">
         </div>
       </div>
 
