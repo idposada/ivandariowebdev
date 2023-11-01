@@ -1,4 +1,4 @@
-<?php include('header.php'); ?>
+<?php /* Template Name: Contacto */ include('header.php'); ?>
 <main>
   <section class="intro">
     <div class="row animate__animated animate__slideInDown" data-aos="fade-up">
@@ -46,17 +46,17 @@
 
           <a class="waves-effect waves-light btn btn-redes"><iconify-icon icon="cib:telegram"></iconify-icon> <span class="link.title"> </a>
 
-<a class="waves-effect waves-light btn btn-redes"><iconify-icon icon="cib:telegram"></iconify-icon> <span class="link.title"> </a>
+          <a class="waves-effect waves-light btn btn-redes"><iconify-icon icon="cib:telegram"></iconify-icon> <span class="link.title"> </a>
 
-<a class="waves-effect waves-light btn btn-redes"><iconify-icon icon="cib:telegram"></iconify-icon> <span class="link.title"> </a>
-<a class="waves-effect waves-light btn btn-redes"><iconify-icon icon="cib:telegram"></iconify-icon> <span class="link.title"> </a>
+          <a class="waves-effect waves-light btn btn-redes"><iconify-icon icon="cib:telegram"></iconify-icon> <span class="link.title"> </a>
+          <a class="waves-effect waves-light btn btn-redes"><iconify-icon icon="cib:telegram"></iconify-icon> <span class="link.title"> </a>
         </div>
       </div>
-
+s
       <div class="col m6 s12">
 
         <div class="center">
-          <img src="img/img-perfil1png.png" alt="">
+          <img src="<?php bloginfo('template_url'); ?>/img/img-perfil1png.png" alt="">
         </div>
 
 

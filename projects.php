@@ -1,4 +1,4 @@
-<?php include('header.php'); ?>
+<?php /* Template Name: Projects */ include('header.php'); ?>
 <main>
   <section class="intro">
     <div class="row animate__animated animate__slideInDown" data-aos="fade-up">

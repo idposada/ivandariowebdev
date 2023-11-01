@@ -6,7 +6,7 @@
         IVAN DARIO POSADA SUAREZ
       </div>
       <div class="col m4 s12 img-home">
-        <img src="img/logo-ivan-wev-dev 1.png" alt="">
+        <img src="<?php bloginfo('template_url'); ?>/img/logo-ivan-wev-dev 1.png" alt="">
       </div>
     </div>
 
@@ -33,7 +33,7 @@
         Hi, I'm Ivan Dario,  Building the web, one line of code at a time. Geek by nature, tech enthusiast for life
       </div>
       <div class="col m6 s12 img-about" data-aos="fade-up">
-        <img src="img/img-perfil1png.png" alt="">
+        <img src="<?php bloginfo('template_url'); ?>/img/img-perfil1png.png" alt="">
       </div>
     </div>
   </section>
