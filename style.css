@@ -370,10 +370,26 @@ box-shadow: 7px 4px 6px #1e1e1e;
     font-size: 24px;
     background-color: #48ffd5 !important;
     color: #001320;
+}
+.sidenav {
+  background: radial-gradient(50% 50% at 50% 50%, #00362B 0%, #001320 100%) !important;
+}
+
+.brand-logo-mobile{
+  width: 98%;
+  margin: 2%;
+}
+
 
 
 
 @media only screen and (max-width: 428px)   {
+
+  .brand-logo-mobile img{
+    width: 98%;
+    margin: 2%;
+  }
+
 
   .brand-logo > img:nth-child(1) {
     width: 76%;
@@ -437,5 +453,7 @@ font-weight: 400;
 line-height: normal;
 text-align: center;
 }
+
+
 
 }

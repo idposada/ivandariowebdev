@@ -34,7 +34,7 @@
         <!-- MOBILE MENU -->
 
         <ul class="sidenav" id="mobile-demo">
-          <a href="#" class="brand-logo"> <img src="<?php bloginfo('template_url'); ?>/img/ivandarioposada-logo.png" alt=""> </a>
+          <a href="#" class="brand-logo-mobile"> <img src="<?php bloginfo('template_url'); ?>/img/ivandarioposada-logo.png" alt=""> </a>
           <hr>
           <li><a class="waves-effect waves-light btn btn-menu" href="sass.html">Home</a></li>
           <li><a class="waves-effect waves-light btn btn-menu" href="badges.html">About</a></li>
