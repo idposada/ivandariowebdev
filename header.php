@@ -22,24 +22,42 @@
           <div class="nav-wrapper">
             <a href="#" class="brand-logo"> <img src="<?php bloginfo('template_url'); ?>/img/ivandarioposada-logo.png" alt=""> </a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-              <li><a class="waves-effect waves-light btn btn-menu" href="sass.html">Home</a></li>
-              <li><a class="waves-effect waves-light btn btn-menu" href="badges.html">About</a></li>
-              <li><a class="waves-effect waves-light btn btn-menu" href="collapsible.html">Projects</a></li>
-              <li><a class="waves-effect waves-light btn btn-menu-active" href="collapsible.html">Contact</a></li>
-            </ul>
+
+            <?php
+            wp_nav_menu(
+              array(
+                'menu' => 'primary',
+                'menu_class' => 'menu right hide-on-med-and-down'
+             )
+             );
+
+
+         ?>
+
           </div>
         </nav>
 
         <!-- MOBILE MENU -->
 
+
         <ul class="sidenav" id="mobile-demo">
           <a href="#" class="brand-logo-mobile"> <img src="<?php bloginfo('template_url'); ?>/img/ivandarioposada-logo.png" alt=""> </a>
           <hr>
-          <li><a class="waves-effect waves-light btn btn-menu" href="sass.html">Home</a></li>
+
+          <?php
+
+           wp_nav_menu(
+             array(
+               'menu' => 'primary',
+               
+            )
+            );
+
+       ?>
+          <!-- <li><a class="waves-effect waves-light btn btn-menu" href="sass.html">Home</a></li>
           <li><a class="waves-effect waves-light btn btn-menu" href="badges.html">About</a></li>
           <li><a class="waves-effect waves-light btn btn-menu" href="collapsible.html">Projects</a></li>
-          <li><a class="waves-effect waves-light btn btn-menu-active" href="collapsible.html">Contact</a></li>
+          <li><a class="waves-effect waves-light btn btn-menu-active" href="collapsible.html">Contact</a></li> -->
 
         </ul>
   </header>

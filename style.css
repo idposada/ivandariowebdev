@@ -24,16 +24,71 @@ nav .nav-wrapper {
   width: 46%;
 }
 
+nav ul a {
+color: #48FFD5 !important;
+}
+
+
+
+.menu-item{
+  border-radius: 15px !important;
+border: 1px solid #48FFD5 !important;
+background-color: #fff0 !important;
+
+
+position: relative;
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  vertical-align: middle;
+  z-index: 1;
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
+
+    letter-spacing: .5px;
+      text-align: center;
+        text-decoration: none;
+
+
+        height: 36px;
+  line-height: 36px;
+  padding: 0 16px;
+  text-transform: uppercase;
+  margin: 0 6px 0 12px;
+}
+
+.menu-item:hover{
+  color: #00223A !important;
+    box-shadow: 2px 2px 9px #48FFD5 !important;
+    background-color: #48ffd56b !important;
+
+}
+
+.current-menu-item{
+  border-radius: 15px !important;
+border: 1px solid #48FFD5 !important;
+color: #00223A !important;
+background-color: #48ffd56b !important;
+  margin: 0 6px 0 12px !important;
+}
+
 .btn-menu{
   border-radius: 15px;
 border: 1px solid #48FFD5;
 background-color: #fff0;
 color: #48FFD5;
+  margin: 0 6px 0 12px;
 }
 
 .btn-menu:hover{
 color: #00223A;
   box-shadow: 2px 2px 9px #48FFD5;
+    background-color: #2bbbad !important;
 
 }
 
@@ -42,6 +97,7 @@ color: #00223A;
 border: 1px solid #48FFD5;
 color: #00223A;
 background-color: #48FFD5;
+  margin: 0 6px 0 12px;
 }
 
 
@@ -372,7 +428,7 @@ box-shadow: 7px 4px 6px #1e1e1e;
     color: #001320;
 }
 .sidenav {
-  background: radial-gradient(50% 50% at 50% 50%, #00362B 0%, #001320 100%) !important;
+  background: radial-gradient(50% 50% at 50% 50%, #00362BE0 0%, #001320 100%) !important;
 }
 
 .brand-logo-mobile{
@@ -452,6 +508,55 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 text-align: center;
+
+}
+
+.menu-item {
+  border-radius: 15px !important;
+border: 1px solid #48FFD5 !important;
+background-color: #fff0 !important;
+
+
+position: relative;
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  vertical-align: middle;
+  z-index: 1;
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
+
+    letter-spacing: .5px;
+      text-align: center;
+        text-decoration: none;
+
+
+        /*! height: 36px; */
+  line-height: 36px;
+  padding: 0 16px;
+  text-transform: uppercase;
+  margin: 0 6px 0 12px;
+  width: 92%;
+}
+
+.menu-item:hover{
+  color: #00223A !important;
+    box-shadow: 2px 2px 9px #48FFD5 !important;
+    background-color: #48ffd56b !important;
+
+}
+
+.current-menu-item{
+  border-radius: 15px !important;
+border: 1px solid #48FFD5 !important;
+color: #00223A !important;
+background-color: #48ffd56b !important;
+  margin: 0 6px 0 12px !important;
 }
 
 

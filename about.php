@@ -12,10 +12,10 @@
 
     <div class="row">
       <div class="col m6 s12 text-about" data-aos="fade-up">
-        Hi, I'm Ivan Dario,  Building the web, one line of code at a time. Geek by nature, tech enthusiast for life
+        <?php the_field('text_about'); ?>
       </div>
       <div class="col m6 s12 img-about" data-aos="fade-up">
-        <img src="<?php bloginfo('template_url'); ?>/img/img-perfil1png.png" alt="">
+        <img src="<?php the_field('img_abot'); ?>" alt="">
       </div>
     </div>
   </section>
@@ -30,7 +30,7 @@
           </div>
 
           <div class="skill-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices iaculis sem nec sodales. In nec
+            <?php the_field('text_web_developer'); ?>
           </div>
         </div>
       </div>
@@ -43,7 +43,7 @@
           </div>
 
           <div class="skill-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices iaculis sem nec sodales. In nec
+            <?php the_field('text_pm'); ?>
           </div>
         </div>
       </div>
@@ -51,12 +51,12 @@
       <div class="col m6 s12">
         <div class="card card-skill">
           <div class="skill-name">
-            PROJECT MANAGER
+            IT CONSULTING
             <hr>
           </div>
 
           <div class="skill-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices iaculis sem nec sodales. In nec
+            <?php the_field('text_it_consulting'); ?>
           </div>
         </div>
       </div>
@@ -69,7 +69,7 @@
           </div>
 
           <div class="skill-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices iaculis sem nec sodales. In nec
+          <?php the_field('text_ui_ux'); ?>
           </div>
         </div>
       </div>
