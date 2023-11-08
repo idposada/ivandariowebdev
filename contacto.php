@@ -17,6 +17,8 @@
       <div class="col m6 s12">
         <div class="contact-form ">
 
+               <?php echo do_shortcode( '[contact-form-7 id="a49345d" title="Formulario de contacto"]' ); ?>
+<!--
 
           <form class="" action="index.html" method="post">
 
@@ -40,23 +42,24 @@
               <input type="submit" name="iniciar" value="Send Message" class="waves-effect waves-light btn btn-enviar center">
             </div>
 
-          </form>
+          </form> -->
         </div>
         <div class="social-buttons center">
 
-          <a class="waves-effect waves-light btn btn-redes"><iconify-icon icon="cib:telegram"></iconify-icon> <span class="link.title"> </a>
+          <a class="waves-effect waves-light btn btn-redes"><iconify-icon icon="mdi:linkedin"></iconify-icon> <span class="link.title"> </a>
 
-          <a class="waves-effect waves-light btn btn-redes"><iconify-icon icon="cib:telegram"></iconify-icon> <span class="link.title"> </a>
+          <a class="waves-effect waves-light btn btn-redes"><iconify-icon icon="mdi:github"></iconify-icon> <span class="link.title"> </a>
 
-          <a class="waves-effect waves-light btn btn-redes"><iconify-icon icon="cib:telegram"></iconify-icon> <span class="link.title"> </a>
-          <a class="waves-effect waves-light btn btn-redes"><iconify-icon icon="cib:telegram"></iconify-icon> <span class="link.title"> </a>
+          <a class="waves-effect waves-light btn btn-redes"><iconify-icon icon="mdi:spotify"></iconify-icon><span class="link.title"> </a>
+          <a class="waves-effect waves-light btn btn-redes"><iconify-icon icon="devicon:twitter"></iconify-icon><span class="link.title"> </a>
+            <a class="waves-effect waves-light btn btn-redes"><iconify-icon icon="cib:telegram"></iconify-icon> <span class="link.title"> </a>
         </div>
       </div>
-s
+
       <div class="col m6 s12">
 
         <div class="center">
-          <img src="<?php bloginfo('template_url'); ?>/img/img-perfil1png.png" alt="">
+            <img src="<?php the_field('img_about'); ?>" alt="">
         </div>
 
 

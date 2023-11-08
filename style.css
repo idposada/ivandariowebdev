@@ -248,6 +248,17 @@ input[type="text"]{
 
 }
 
+.wpcf7-submit {
+  background-color: #48FFD5;
+  border: 0px;
+  padding: 1% 8% 1% 8%;
+  font-size: 20px;
+  font-family: Nova Square;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+
 .card-skill{
   border: 1px solid #FFF;
 background: #48FFD5;
@@ -386,6 +397,10 @@ text-align: center;
 
 }
 
+[type="submit"]{
+    border-radius: 15px;
+}
+
 textarea {
   height: 108px;
   border: 1px solid rgb(72, 255, 213) !important;
@@ -426,6 +441,7 @@ box-shadow: 7px 4px 6px #1e1e1e;
     font-size: 24px;
     background-color: #48ffd5 !important;
     color: #001320;
+      border-radius: 10% 38% 10% 30%;
 }
 .sidenav {
   background: radial-gradient(50% 50% at 50% 50%, #00362BE0 0%, #001320 100%) !important;
@@ -557,6 +573,10 @@ border: 1px solid #48FFD5 !important;
 color: #00223A !important;
 background-color: #48ffd56b !important;
   margin: 0 6px 0 12px !important;
+}
+
+div.center:nth-child(1) > img:nth-child(1) {
+  margin-top: 11%;
 }
 
 

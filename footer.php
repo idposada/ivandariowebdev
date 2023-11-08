@@ -9,7 +9,16 @@
   <br>
   All Right Reserved - <?php echo date("Y"); ?>
 </div>
+<div class="social-buttons center">
 
+  <a class="waves-effect waves-light btn btn-redes"><iconify-icon icon="mdi:linkedin"></iconify-icon> <span class="link.title"> </a>
+
+  <a class="waves-effect waves-light btn btn-redes"><iconify-icon icon="mdi:github"></iconify-icon> <span class="link.title"> </a>
+
+  <a class="waves-effect waves-light btn btn-redes"><iconify-icon icon="mdi:spotify"></iconify-icon><span class="link.title"> </a>
+  <a class="waves-effect waves-light btn btn-redes"><iconify-icon icon="devicon:twitter"></iconify-icon><span class="link.title"> </a>
+    <a class="waves-effect waves-light btn btn-redes"><iconify-icon icon="cib:telegram"></iconify-icon> <span class="link.title"> </a>
+</div>
 
 
   <!--JavaScript at end of body for optimized loading-->
