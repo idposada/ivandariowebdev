@@ -50,45 +50,36 @@
 
     <div class="row">
 
-        <div class="col m4 s12">
-          <div class="card card-project" data-aos="zoom-in">
-            <div class="hm-project-name">
-              DelaEspriella Style Ecommerce
-            </div>
+      <?php
+      $args = array(
+    'posts_per_page'   => -1,
+    'orderby'          => 'post_date',
+    'order'            =>'DESC',
+    'post_type'        => 'project',
+    'post_status'      => 'publish',
+  );
+  $the_query = new WP_Query( $args );
 
-            <div class="boton-redondo">
-            <a class="btn btn-redondo" href="#">-></a>
-            </div>
-          </div>
+       ?>
 
-        </div>
-
-        <div class="col m4 s12">
-          <div class="card card-project" data-aos="zoom-in">
-            <div class="hm-project-name">
-              DelaEspriella Style Ecommerce
-            </div>
-
-            <div class="boton-redondo">
-            <a class="btn btn-redondo" href="#">-></a>
-            </div>
-          </div>
-
-        </div>
+    <?php if( $the_query->have_posts() ): ?>
+      <?php while( $the_query->have_posts() ) : $the_query->the_post(); ?>
 
 
         <div class="col m4 s12">
           <div class="card card-project" data-aos="zoom-in">
             <div class="hm-project-name">
-              DelaEspriella Style Ecommerce
+            <?php echo get_the_title(); ?>
             </div>
 
             <div class="boton-redondo">
-            <a class="btn btn-redondo" href="#">-></a>
+            <a  href="<?php the_permalink(); ?>" class="btn btn-redondo" href="#">-></a>
             </div>
           </div>
 
         </div>
+      <?php endwhile;?>
+      <?php endif;  wp_reset_query(); ?>
 
     </div>
 

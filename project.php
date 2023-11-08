@@ -2,28 +2,25 @@
   <section class="intro">
     <div class="row animate__animated animate__slideInDown" data-aos="fade-up">
       <div class="col m12 s12 titulo-project">
-    <h1>DELAESPRIELLA STYLE ECOMMERCE</h1>
+    <h1><?php echo get_the_title(); ?></h1>
       </div>
     </div>
   </section>
 
   <section class="project-details">
     <div class="row">
-      <div class="col m6 s12">
+      <div class="col m6 s12" data-aos="fade-up">
         <div class="project-text">
-          With great enthusiasm, i proudly introduce 'O Plano de Metas': a landing page developed in collaboration with Supernova for the renowned @nocidanielle, who boasts an impressive community of over 888k followers.
+          <h2>Description</h2>
+          <?php the_field('project_description'); ?>
         </div>
       </div>
 
-      <div class="col m6 s12">
+      <div class="col m6 s12" data-aos="fade-up">
+
         <div class="project-tech">
-          Wordpress Custom template
-
-          emplate over HTML, Css3, Javascript
-
-          Front-end & back-End
-
-          Hosting and Domain COnfiguration
+          <h2>Tech Stack</h2>
+          <?php the_field('project_techs'); ?>
         </div>
 
       </div>
@@ -36,21 +33,21 @@
 
   <section class="project-imgs">
     <div class="row">
-      <div class="project-imgs-principal">
-        <img src="img/project-img.png" alt="">
+      <div class="project-imgs-principal" data-aos="fade-up">
+        <img src="<?php the_post_thumbnail_url(); ?>" alt="">
       </div>
     </div>
 
     <div class="row">
       <div class="col m6 s12">
-        <div class="project-imgs-secundaria">
-          <img src="img/img-project1.png" alt="">
+        <div class="project-imgs-secundaria" data-aos="fade-up">
+          <img src="<?php the_field('project_img1'); ?>" alt="">
         </div>
       </div>
 
       <div class="col m6 s12">
-        <div class="project-imgs-secundaria">
-        <img src="img/img-project1.png" alt="">
+        <div class="project-imgs-secundaria" data-aos="fade-up">
+        <img src="<?php the_field('project_img2'); ?>" alt="">
         </div>
       </div>
     </div>
@@ -58,7 +55,7 @@
   <section>
     <div class="row center">
       <div class="project-links-int">
-        <a class="waves-effect waves-light btn btn-project">VISIT SITE</a>
+        <a href="<?php the_field('project_url'); ?>" target="_blank" class="waves-effect waves-light btn btn-project">VISIT SITE</a>
       </div>
     </div>
   </section>
