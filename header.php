@@ -68,13 +68,13 @@
           <li><a class="waves-effect waves-light btn btn-menu-active" href="collapsible.html">Contact</a></li> -->
           <div class="social-buttons center">
 
-            <a class="waves-effect waves-light btn btn-redes"><iconify-icon icon="mdi:linkedin"></iconify-icon> <span class="link.title"> </a>
+            <a href="https://www.linkedin.com/in/ivan-dario-posada-suarez-9629a743/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BHT6n%2BS8RQq%2BqzcayqKrmBA%3D%3D" target="_blank" class="waves-effect waves-light btn btn-redes"><iconify-icon icon="mdi:linkedin"></iconify-icon> <span class="link.title"> </a>
 
-            <a class="waves-effect waves-light btn btn-redes"><iconify-icon icon="mdi:github"></iconify-icon> <span class="link.title"> </a>
+            <a href="https://github.com/idposada" target="_blank" class="waves-effect waves-light btn btn-redes"><iconify-icon icon="mdi:github"></iconify-icon> <span class="link.title"> </a>
 
-            <a class="waves-effect waves-light btn btn-redes"><iconify-icon icon="mdi:spotify"></iconify-icon><span class="link.title"> </a>
-            <a class="waves-effect waves-light btn btn-redes"><iconify-icon icon="devicon:twitter"></iconify-icon><span class="link.title"> </a>
-              <a class="waves-effect waves-light btn btn-redes"><iconify-icon icon="cib:telegram"></iconify-icon> <span class="link.title"> </a>
+            <a href="https://open.spotify.com/user/idposada" target="_blank" class="waves-effect waves-light btn btn-redes"><iconify-icon icon="mdi:spotify"></iconify-icon><span class="link.title"> </a>
+            <a href="https://twitter.com/idposada" target="_blank" class="waves-effect waves-light btn btn-redes"><iconify-icon icon="devicon:twitter"></iconify-icon><span class="link.title"> </a>
+              <a href="https://telegram/idposada" target="_blank" class="waves-effect waves-light btn btn-redes"><iconify-icon icon="cib:telegram"></iconify-icon> <span class="link.title"> </a>
           </div>
     </header>
         </ul>
