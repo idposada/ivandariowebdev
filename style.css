@@ -452,6 +452,43 @@ box-shadow: 7px 4px 6px #1e1e1e;
   margin: 2%;
 }
 
+.job-info {
+  display: flex;
+}
+
+.job-name > h3:nth-child(1) {
+  color: #48FFD5;
+  text-shadow: 2px 2px 0px #FFF;
+  font-family: Nova Square;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.role {
+  color: #FFF;
+  font-family: Nova Square;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+.job-desc {
+  color: #48FFD5;
+  text-shadow: 2px 2px 0px #FFF;
+  font-family: Nova Square;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+
 
 
 
@@ -582,6 +619,13 @@ h2 {
 font-size: 29px !important;
 
 }
+
+.job-info {
+  display: block;
+  text-align: center;
+}
+
+
 
 
 }
