@@ -82,16 +82,31 @@
   <h2>MY WORK EXPERIENCE</h2>
   </div>
 
+  <?php
+  $args = array(
+'posts_per_page'   => -1,
+'orderby'          => 'post_date',
+'order'            =>'DESC',
+'post_type'        => 'job',
+'post_status'      => 'publish',
+);
+$the_query = new WP_Query( $args );
+?>
+
+  <?php if( $the_query->have_posts() ): ?>
+            <?php while( $the_query->have_posts() ) : $the_query->the_post(); ?>
+
+
   <div class="row job">
     <div class="col m6 s12">
       <div class="job-info">
 
-        <img src="<?php bloginfo('template_url'); ?>/img/visbanking.png" alt="" class="company-logo">
+        <img src="<?php the_post_thumbnail_url(); ?>" alt="">
 
         <div class="job-name">
-          <h3>GEOMETRIX</h3>
+          <h3><?php echo get_the_title(); ?></h3>
           <div class="role">
-            Web Developer
+            <?php the_field('role'); ?>
           </div>
         </div>
 
@@ -102,12 +117,14 @@
     <div class="col m6 s12">
         <h3 class="job-desc">Job Description</h3>
           <div class="project-text">
-            With great enthusiasm, i proudly introduce 'O Plano de Metas': a landing page developed in collaboration with Supernova for the renowned @nocidanielle, who boasts an impressive community of over 888k followers.
+          <?php the_field('role_description'); ?>
           </div>
     </div>
 
   </div>
   <hr>
+<?php endwhile;?>
+<?php endif;  wp_reset_query(); ?>
 
 </section>
 

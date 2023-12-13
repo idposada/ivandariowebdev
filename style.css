@@ -489,6 +489,10 @@ box-shadow: 7px 4px 6px #1e1e1e;
 }
 
 
+.job-info > img:nth-child(1) {
+  border-radius: 15%;
+  margin: 1%;
+}
 
 
 
