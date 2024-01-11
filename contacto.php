@@ -58,7 +58,7 @@
 
       <div class="col m6 s12">
 
-        <div class="center">
+        <div class="center img-about">
             <img src="<?php the_field('img_about'); ?>" alt="">
         </div>
 

@@ -494,6 +494,13 @@ box-shadow: 7px 4px 6px #1e1e1e;
   margin: 1%;
 }
 
+.img-about > img:nth-child(1) {
+  width: 57%;
+  border-radius: 30px;
+  box-shadow: 2px 2px 8px #48ffd5;
+}
+
+
 
 
 @media only screen and (max-width: 428px)   {
