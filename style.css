@@ -191,6 +191,7 @@ line-height: normal;
   border: 1px solid #FFF;
 background: #48FFD5;
 box-shadow: 5px 5px 1px 0px #FFF;
+  height: 148px;
 }
 
 .hm-project-name{
@@ -232,6 +233,7 @@ textarea{
 
 input[type="text"]{
     color: #fff !important;
+      padding-left: 17px !important;
 }
 
 .btn-enviar{
@@ -264,6 +266,7 @@ input[type="text"]{
 background: #48FFD5;
 box-shadow: 5px 5px 1px 0px #FFF;
   padding: 6%;
+    height: 602px;
 }
 
 .card-skill:hover{
