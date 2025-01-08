@@ -162,7 +162,7 @@ text-align: center;
 
 h2{
   color: #48FFD5 !important;
-text-shadow: 2px 2px 0px #FFF !important;
+text-shadow: 2px 1px 0px #FFF !important;
 font-family: Nova Square !important;
 font-size: 48px !important;
 font-style: normal !important;
@@ -177,6 +177,10 @@ font-size: 48px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+}
+
+.img-home img{
+  width: 100%;
 }
 
 .img-about{
@@ -224,6 +228,8 @@ color: #48ffd5;
      padding: 0 15% 14px 15%;
   border: 1px solid #48ffd5;
   border-radius: 15px;
+  padding-top: 30px !important;
+  padding-right: 30px !important;
 }
 
 textarea{
@@ -499,8 +505,18 @@ box-shadow: 7px 4px 6px #1e1e1e;
 
 .img-about > img:nth-child(1) {
   width: 57%;
-  border-radius: 30px;
-  box-shadow: 2px 2px 8px #48ffd5;
+ 
+}
+
+.card-stack{
+  border: 1px solid #48FFD5;
+  color: #ffffff;
+  font-size: 36px;
+  padding: 10%;
+}
+
+.stack-line{
+  border: 2px solid #48ffd5;
 }
 
 
@@ -521,9 +537,9 @@ box-shadow: 7px 4px 6px #1e1e1e;
 
   .titulo-home {
   color: #48FFD5;
-text-shadow: 4px 4px 1px #FFF;
+text-shadow: 2px 2px 1px #FFF;
 font-family: Nova Square;
-font-size: 65px;s
+font-size: 38px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
@@ -537,10 +553,10 @@ line-height: normal;
 .skills {
   color: #FFF;
 font-family: Nova Square;
-font-size: 40px;
+font-size: 30px;
 font-style: normal;
 font-weight: 400;
-line-height: normal;
+    line-height: 10px;
 text-align: center;
   margin: 4%;
 }
@@ -568,7 +584,7 @@ text-align: center;
 
 .titulo-project h1 {
   color: #48FFD5;
-text-shadow: 4px 4px 1px #FFF;
+text-shadow: 2px 2px 1px #FFF;
 font-family: Nova Square;
 font-size: 39px;
 font-style: normal;
@@ -639,6 +655,24 @@ font-size: 29px !important;
   text-align: center;
 }
 
+.img-about > img:nth-child(1) {
+  width: 100%;
+ 
+}
+
+.card-skill {
+height: 602px;
+height: 802px;
+}
+
+.text-about {
+  color: #FFF;
+font-family: Nova Square;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
 
 
 
