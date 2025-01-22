@@ -29,6 +29,7 @@ body > header:nth-child(1) > nav:nth-child(1) {
   width: 96%;
   border-radius: 30px;
   background-color: #48FFD514;
+  box-shadow: 3px 3px 9px #48FFD56E;
 }
 
 .brand-logo > img:nth-child(1) {
@@ -194,6 +195,8 @@ line-height: normal;
 
 .img-home img{
   width: 100%;
+  border-radius: 8px;
+  box-shadow: 3px 2px 19px #48FFD56E;
 }
 
 .img-about{
@@ -468,7 +471,8 @@ box-shadow: 7px 4px 6px #1e1e1e;
     font-size: 24px;
     background-color: #48ffd5 !important;
     color: #001320;
-      border-radius: 10% 38% 10% 30%;
+    border-radius: 30px;
+    line-height: 45px;
 }
 .sidenav {
   background: radial-gradient(50% 50% at 50% 50%, #00362BE0 0%, #001320 100%) !important;
@@ -550,6 +554,11 @@ color: #48ffd5 !important;
 #menu-main-menu-1 > li {
   margin: 5px 0px 5px 12px;
 }
+
+.my-footer {
+  border-top: 1px solid #48FFD5;
+  padding-top: 19px;
+  }
 
 
 
@@ -638,12 +647,11 @@ text-align: center;
   border-radius: 15px !important;
 border: 1px solid #48FFD5 !important;
 background-color: #fff0 !important;
-
-
+color: #48FFD5 !important;
 position: relative;
-  cursor: pointer;
-  display: inline-block;
-  overflow: hidden;
+cursor: pointer;
+ display: inline-block;
+ overflow: hidden;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -714,13 +722,10 @@ font-weight: 400;
 line-height: normal;
 }
 
-sidenav li > a {
-
-font-size: 15px !important;
-height: 0px !important;
-line-height: 39px !important;
-color: #48ffd5 !important;
-}
+#menu-main-menu-1 > li > a {
+  color: #48ffd5 !important;
+  line-height: 39px;
+  }
 
 
 
