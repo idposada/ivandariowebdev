@@ -15,14 +15,28 @@ nav{
   background-color: #ee6e7300;
 }
 
+
+
+
 nav .nav-wrapper {
 
   padding: 1% 0 1% 0 !important;
 }
 
-.brand-logo > img:nth-child(1) {
-  width: 46%;
+body > header:nth-child(1) > nav:nth-child(1) {
+  border: 1px solid #48FFD5;
+  margin: 20px 30px 0px 33px;
+  width: 96%;
+  border-radius: 30px;
+  background-color: #48FFD514;
+  box-shadow: 3px 3px 9px #48FFD56E;
 }
+
+.brand-logo > img:nth-child(1) {
+  margin-top: -9px;
+}
+
+
 
 nav ul a {
 color: #48FFD5 !important;
@@ -162,7 +176,7 @@ text-align: center;
 
 h2{
   color: #48FFD5 !important;
-text-shadow: 2px 2px 0px #FFF !important;
+text-shadow: 2px 1px 0px #FFF !important;
 font-family: Nova Square !important;
 font-size: 48px !important;
 font-style: normal !important;
@@ -177,6 +191,12 @@ font-size: 48px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+}
+
+.img-home img{
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 3px 2px 19px #48FFD56E;
 }
 
 .img-about{
@@ -204,6 +224,11 @@ line-height: normal;
 padding: 10px 15px;
 }
 
+.hm-project-name h3{
+  font-size: 24px;
+  line-height: 85%;
+}
+
 .boton-redondo{
   text-align: right;
   margin: 15px;
@@ -224,6 +249,8 @@ color: #48ffd5;
      padding: 0 15% 14px 15%;
   border: 1px solid #48ffd5;
   border-radius: 15px;
+  padding-top: 30px !important;
+  padding-right: 30px !important;
 }
 
 textarea{
@@ -444,7 +471,8 @@ box-shadow: 7px 4px 6px #1e1e1e;
     font-size: 24px;
     background-color: #48ffd5 !important;
     color: #001320;
-      border-radius: 10% 38% 10% 30%;
+    border-radius: 30px;
+    line-height: 45px;
 }
 .sidenav {
   background: radial-gradient(50% 50% at 50% 50%, #00362BE0 0%, #001320 100%) !important;
@@ -499,17 +527,53 @@ box-shadow: 7px 4px 6px #1e1e1e;
 
 .img-about > img:nth-child(1) {
   width: 57%;
-  border-radius: 30px;
-  box-shadow: 2px 2px 8px #48ffd5;
+ 
 }
 
+.card-stack{
+  border: 1px solid #48FFD5;
+  color: #ffffff;
+  font-size: 36px;
+  padding: 10%;
+}
+
+.stack-line{
+  border: 2px solid #48ffd5;
+}
+
+
+sidenav li a {
+
+font-size: 15px !important;
+height: 0px !important;
+line-height: 39px !important;
+color: #48ffd5 !important;
+}
+
+
+#menu-main-menu-1 > li {
+  margin: 5px 0px 5px 12px;
+}
+
+.my-footer {
+  border-top: 1px solid #48FFD5;
+  padding-top: 19px;
+  }
 
 
 
 @media only screen and (max-width: 428px)   {
 
+  body > header:nth-child(1) > nav:nth-child(1) {
+  border: 1px solid #48FFD5;
+  margin: 20px 30px 0px 33px;
+  width: 84%;
+  border-radius: 30px;
+  background-color: #48FFD514;
+}
+
   .brand-logo-mobile img{
-    width: 98%;
+    width: 72%;
     margin: 2%;
   }
 
@@ -521,9 +585,9 @@ box-shadow: 7px 4px 6px #1e1e1e;
 
   .titulo-home {
   color: #48FFD5;
-text-shadow: 4px 4px 1px #FFF;
+text-shadow: 2px 2px 1px #FFF;
 font-family: Nova Square;
-font-size: 65px;s
+font-size: 38px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
@@ -537,10 +601,10 @@ line-height: normal;
 .skills {
   color: #FFF;
 font-family: Nova Square;
-font-size: 40px;
+font-size: 30px;
 font-style: normal;
 font-weight: 400;
-line-height: normal;
+    line-height: 10px;
 text-align: center;
   margin: 4%;
 }
@@ -552,8 +616,9 @@ text-align: center;
 }
 
 .titulo-home h1 {
-  font-size: 65px;
+  font-size: 38px;
   text-align: center;
+  text-shadow: 2px 2px 1px #FFF !important;
 }
 
 .project-links {
@@ -568,7 +633,7 @@ text-align: center;
 
 .titulo-project h1 {
   color: #48FFD5;
-text-shadow: 4px 4px 1px #FFF;
+text-shadow: 2px 2px 1px #FFF;
 font-family: Nova Square;
 font-size: 39px;
 font-style: normal;
@@ -582,12 +647,11 @@ text-align: center;
   border-radius: 15px !important;
 border: 1px solid #48FFD5 !important;
 background-color: #fff0 !important;
-
-
+color: #48FFD5 !important;
 position: relative;
-  cursor: pointer;
-  display: inline-block;
-  overflow: hidden;
+cursor: pointer;
+ display: inline-block;
+ overflow: hidden;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -639,6 +703,29 @@ font-size: 29px !important;
   text-align: center;
 }
 
+.img-about > img:nth-child(1) {
+  width: 100%;
+ 
+}
+
+.card-skill {
+height: 602px;
+height: 802px;
+}
+
+.text-about {
+  color: #FFF;
+font-family: Nova Square;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+#menu-main-menu-1 > li > a {
+  color: #48ffd5 !important;
+  line-height: 39px;
+  }
 
 
 

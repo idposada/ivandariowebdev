@@ -23,8 +23,9 @@
 <body>
   <header>
 
-    <nav>
+    
       <nav>
+        <div class="new-menu">
           <div class="nav-wrapper">
             <a href="#" class="brand-logo"> <img src="<?php bloginfo('template_url'); ?>/img/ivandarioposada-logo.png" alt=""> </a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
@@ -40,6 +41,7 @@
 
          ?>
 
+          </div>
           </div>
         </nav>
 
