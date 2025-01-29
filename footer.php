@@ -15,7 +15,7 @@
 
   <a href="https://open.spotify.com/user/idposada" target="_blank" class="waves-effect waves-light btn btn-redes"><iconify-icon icon="mdi:spotify"></iconify-icon><span class="link.title"> </a>
   <a href="https://twitter.com/idposada" target="_blank" class="waves-effect waves-light btn btn-redes"><iconify-icon icon="devicon:twitter"></iconify-icon><span class="link.title"> </a>
-    <a href="https://telegram/idposada" target="_blank" class="waves-effect waves-light btn btn-redes"><iconify-icon icon="cib:telegram"></iconify-icon> <span class="link.title"> </a>
+    <a href="http://t.me/idposada" target="_blank" class="waves-effect waves-light btn btn-redes"><iconify-icon icon="cib:telegram"></iconify-icon> <span class="link.title"> </a>
 </div>
 </div>
 
