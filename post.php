@@ -16,9 +16,9 @@
 
 <section class="post-content">
 
-<div class="row">
+<div class="row container">
     <div class="col m3 s12" >
-        <div class="share-section section scrollspy">
+        <div class="share-section scrollspy">
             <span> SHARE:  </span> 
             <iconify-icon icon="mingcute:whatsapp-fill" width="24" height="24"></iconify-icon>
             <iconify-icon icon="entypo-social:linkedin-with-circle" width="24" height="24"></iconify-icon>
