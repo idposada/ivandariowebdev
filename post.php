@@ -18,7 +18,7 @@
 
 <div class="row">
     <div class="col m3 s12" >
-        <div class="share-section">
+        <div class="share-section section scrollspy">
             <span> SHARE:  </span> 
             <iconify-icon icon="mingcute:whatsapp-fill" width="24" height="24"></iconify-icon>
             <iconify-icon icon="entypo-social:linkedin-with-circle" width="24" height="24"></iconify-icon>
@@ -37,6 +37,22 @@
 
         <divc class="contenido-post">
                 <h2>ID:Ianvaded:</h2>
+                <p>In Japan the idea of a first-year speaking to a senior the way Kageyama did to Asahi is a lot more shocking than it would be in the West, but Tobio calling out teammates in genuinely rude fashion in the middle of a match is what got him isolated in the first place.  It’s better for the Crows to sort this out in practice matches than the real deal, but this is really on Tobio – he has to figure out how to co-exist with others in a team environment.</p>
+
+                <p>In Japan the idea of a first-year speaking to a senior the way Kageyama did to Asahi is a lot more shocking than it would be in the West, but Tobio calling out teammates in genuinely rude fashion in the middle of a match is what got him isolated in the first place.  It’s better for the Crows to sort this out in practice matches than the real deal, but this is really on Tobio – he has to figure out how to co-exist with others in a team environment.</p>
+
+                <p>In Japan the idea of a first-year speaking to a senior the way Kageyama did to Asahi is a lot more shocking than it would be in the West, but Tobio calling out teammates in genuinely rude fashion in the middle of a match is what got him isolated in the first place.  It’s better for the Crows to sort this out in practice matches than the real deal, but this is really on Tobio – he has to figure out how to co-exist with others in a team environment.</p>
+
+                <p>In Japan the idea of a first-year speaking to a senior the way Kageyama did to Asahi is a lot more shocking than it would be in the West, but Tobio calling out teammates in genuinely rude fashion in the middle of a match is what got him isolated in the first place.  It’s better for the Crows to sort this out in practice matches than the real deal, but this is really on Tobio – he has to figure out how to co-exist with others in a team environment.</p>
+
+                <p>In Japan the idea of a first-year speaking to a senior the way Kageyama did to Asahi is a lot more shocking than it would be in the West, but Tobio calling out teammates in genuinely rude fashion in the middle of a match is what got him isolated in the first place.  It’s better for the Crows to sort this out in practice matches than the real deal, but this is really on Tobio – he has to figure out how to co-exist with others in a team environment.</p>
+
+                <p>In Japan the idea of a first-year speaking to a senior the way Kageyama did to Asahi is a lot more shocking than it would be in the West, but Tobio calling out teammates in genuinely rude fashion in the middle of a match is what got him isolated in the first place.  It’s better for the Crows to sort this out in practice matches than the real deal, but this is really on Tobio – he has to figure out how to co-exist with others in a team environment.</p>
+
+                <p>In Japan the idea of a first-year speaking to a senior the way Kageyama did to Asahi is a lot more shocking than it would be in the West, but Tobio calling out teammates in genuinely rude fashion in the middle of a match is what got him isolated in the first place.  It’s better for the Crows to sort this out in practice matches than the real deal, but this is really on Tobio – he has to figure out how to co-exist with others in a team environment.</p>
+
+                <p>In Japan the idea of a first-year speaking to a senior the way Kageyama did to Asahi is a lot more shocking than it would be in the West, but Tobio calling out teammates in genuinely rude fashion in the middle of a match is what got him isolated in the first place.  It’s better for the Crows to sort this out in practice matches than the real deal, but this is really on Tobio – he has to figure out how to co-exist with others in a team environment.</p>
+
                 <p>In Japan the idea of a first-year speaking to a senior the way Kageyama did to Asahi is a lot more shocking than it would be in the West, but Tobio calling out teammates in genuinely rude fashion in the middle of a match is what got him isolated in the first place.  It’s better for the Crows to sort this out in practice matches than the real deal, but this is really on Tobio – he has to figure out how to co-exist with others in a team environment.</p>
 
                 <p>In Japan the idea of a first-year speaking to a senior the way Kageyama did to Asahi is a lot more shocking than it would be in the West, but Tobio calling out teammates in genuinely rude fashion in the middle of a match is what got him isolated in the first place.  It’s better for the Crows to sort this out in practice matches than the real deal, but this is really on Tobio – he has to figure out how to co-exist with others in a team environment.</p>

@@ -24,12 +24,22 @@
   <script src="https://code.iconify.design/iconify-icon/1.0.0-beta.3/iconify-icon.min.js"></script>
   <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/materialize.min.js"></script>
   <script>  AOS.init(); </script>
+
+
   <script type="text/javascript">
   document.addEventListener('DOMContentLoaded', function() {
   var elems = document.querySelectorAll('.sidenav');
   var instances = M.Sidenav.init(elems);
 });
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.scrollspy');
+    var instances = M.ScrollSpy.init(elems);
+  });
   </script>
+
+
 
 </script>
   </footer>
