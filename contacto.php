@@ -11,6 +11,8 @@
 
   <section class="sec-contact"> 
 
+  <div class="row">
+  <div class="col m6 s12">
   <div class="fondo-contact animate__animated animate__fadeInRight">
     <div class="sub-tit-contact">
       <h2>Ivan Dario Posada Suarez</h2>
@@ -36,19 +38,29 @@
 
           <div class="social-icons">
             
-  <a href="https://www.linkedin.com/in/ivan-dario-posada-suarez-9629a743/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BHT6n%2BS8RQq%2BqzcayqKrmBA%3D%3D" target="_blank" class="waves-effect waves-light btn btn-redes"><iconify-icon icon="mdi:linkedin"></iconify-icon> <span class="link.title"> </a>
+          <a href="https://www.linkedin.com/in/ivan-dario-posada-suarez-9629a743/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BHT6n%2BS8RQq%2BqzcayqKrmBA%3D%3D" target="_blank" class="waves-effect waves-light btn btn-redes"><iconify-icon icon="mdi:linkedin"></iconify-icon> <span class="link.title"> </a>
 
-<a href="https://github.com/idposada" target="_blank" class="waves-effect waves-light btn btn-redes"><iconify-icon icon="mdi:github"></iconify-icon> <span class="link.title"> </a>
+          <a href="https://github.com/idposada" target="_blank" class="waves-effect waves-light btn btn-redes"><iconify-icon icon="mdi:github"></iconify-icon> <span class="link.title"> </a>
 
-<a href="https://open.spotify.com/user/idposada" target="_blank" class="waves-effect waves-light btn btn-redes"><iconify-icon icon="mdi:spotify"></iconify-icon><span class="link.title"> </a>
-<a href="https://twitter.com/idposada" target="_blank" class="waves-effect waves-light btn btn-redes"><iconify-icon icon="devicon:twitter"></iconify-icon><span class="link.title"> </a>
-  <a href="http://t.me/idposada" target="_blank" class="waves-effect waves-light btn btn-redes"><iconify-icon icon="cib:telegram"></iconify-icon> <span class="link.title"> </a>
-          </div>
+          <a href="https://open.spotify.com/user/idposada" target="_blank" class="waves-effect waves-light btn btn-redes"><iconify-icon icon="mdi:spotify"></iconify-icon><span class="link.title"> </a>
+          <a href="https://twitter.com/isdposada" target="_blank" class="waves-effect waves-light btn btn-redes"><iconify-icon icon="devicon:twitter"></iconify-icon><span class="link.title"> </a>
+          <a href="http://t.me/idposada" target="_blank" class="waves-effect waves-light btn btn-redes"><iconify-icon icon="cib:telegram"></iconify-icon> <span class="link.title"> </a>
+        </div>
 
       </div>
 
     </div>
   </div>
+
+  </div>
+
+  <div class="col m6 s12">
+    <div class="text-about contact-msg">
+    Contact me and make business happen
+    </div>
+  <?php echo apply_shortcodes( '[contact-form-7 id="a49345d" title="Formulario de contacto"]' ); ?>
+  </div>
+ </div>
 
 
 
