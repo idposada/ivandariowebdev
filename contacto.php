@@ -56,7 +56,7 @@
 
   <div class="col m6 s12">
     <div class="text-about contact-msg">
-    Contact me and make business happen
+    Contact me and make business happen together
     </div>
   <?php echo apply_shortcodes( '[contact-form-7 id="a49345d" title="Formulario de contacto"]' ); ?>
   </div>

@@ -15,7 +15,7 @@
 
   <a href="https://open.spotify.com/user/idposada" target="_blank" class="waves-effect waves-light btn btn-redes"><iconify-icon icon="mdi:spotify"></iconify-icon><span class="link.title"> </a>
   <a href="https://twitter.com/idposada" target="_blank" class="waves-effect waves-light btn btn-redes"><iconify-icon icon="devicon:twitter"></iconify-icon><span class="link.title"> </a>
-    <a href="http://t.me/idposada" target="_blank" class="waves-effect waves-light btn btn-redes"><iconify-icon icon="cib:telegram"></iconify-icon> <span class="link.title"> </a>
+    <a href="https://telegram/idposada" target="_blank" class="waves-effect waves-light btn btn-redes"><iconify-icon icon="cib:telegram"></iconify-icon> <span class="link.title"> </a>
 </div>
 </div>
 
@@ -24,22 +24,12 @@
   <script src="https://code.iconify.design/iconify-icon/1.0.0-beta.3/iconify-icon.min.js"></script>
   <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/materialize.min.js"></script>
   <script>  AOS.init(); </script>
-
-
   <script type="text/javascript">
   document.addEventListener('DOMContentLoaded', function() {
   var elems = document.querySelectorAll('.sidenav');
   var instances = M.Sidenav.init(elems);
 });
-
-
-document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.scrollspy');
-    var instances = M.ScrollSpy.init(elems);
-  });
   </script>
-
-
 
 </script>
   </footer>

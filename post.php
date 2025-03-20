@@ -1,12 +1,12 @@
 <?php include('header.php'); ?>
 <main>
 <section class="post-banner">
-<div class="post-banner-tit">
-<h1 class="post-titulo">
+<div class="post-banner-tit" data-aos="fade-up">
+<h1 class="post-titulo animate__animated animate__slideInDown" >
     Anime for Beginners: 20 Pieces of Essential Viewing
     </h1>
 
-   <img src="<?php bloginfo('template_url'); ?>/img/blog-banner.png" alt="">
+   <img  src="<?php bloginfo('template_url'); ?>/img/blog-banner.png" alt="" >
    <div class="post-date">
         30-01-2025 | Ivan Dario Posada
    </div>

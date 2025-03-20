@@ -636,6 +636,48 @@ color: #48ffd5 !important;
       #textarea1 {
         height: 139px;
       }
+
+      div.input-field:nth-child(3) {
+        margin-top: -36px;
+      }
+      
+      .post-grid-titile h2{
+        color: #48FFD5 !important;
+        font-size: 28px !important; 
+      }
+
+      .post-row {
+        margin-top: 35px;
+        margin-right: 15%;
+      }
+
+      .post-grid-excerpt {
+        color: #fff;
+        font-size: 16px;
+        line-height: 17px;
+      }
+
+      .post-grid-date {
+        color: #48FFD5;
+        font-size: 18px;
+        line-height: 50px;
+      }
+      
+      .linea-verde {
+        border: 1px solid #48FFD5;
+      }
+
+      .btn-blog {
+        color: #00223A !important;
+        background-color: #48FFD5 !important;
+        padding: 2px 35px 22px 35px;
+        border-radius: 30px;
+        box-shadow: 3px 3px 9px #48FFD56E;
+      }
+      
+      
+
+
       
 
 
@@ -822,6 +864,10 @@ line-height: normal;
     .sub-tit-contact h2 {
       font-size: 38px !important;
 
+    }
+
+    div.input-field:nth-child(3) {
+      margin-top: 0px;
     }
 
 }

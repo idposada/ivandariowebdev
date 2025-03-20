@@ -8,9 +8,9 @@
         </div>
 
         <div class="row">
-            <div class="col m12 s12 text-about" data-aos="fade-up">
-                <?php the_field('text_blog'); ?>
-            </div>
+        <div class="text-about animate__animated animate__slideInDown" data-aos="fade-up">
+      Here you can see some of my web development projects.
+    </div>
 
         </div>
 
@@ -19,105 +19,36 @@
 
     <section class="blog-grid">
 
-        <div class="row">
+    <div class="row post-list" >
 
-            <div class="col m4 s12">
-                <div class="card card-blog">
-                    <div class="card-image">
-                        <img src="<?php bloginfo('template_url'); ?>/img/blog-banner.png" alt="">
-                        <span class="card-title">Anime for Beginners: 20 Pieces of Essential Viewing</span>
-                    
-                        <a class="btn-blog btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
-                    </div>
-                    
-                    <div class="card-content">
-                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                    </div>
-                </div>
-
+        <div class="row post-row">
+            <div class="post-grid-titile">
+            <h2> Anime for Beginners: 20 Pieces of Essential Viewing </h2>
             </div>
 
-            <div class="col m4 s12">
-                <div class="card card-blog">
-                    <div class="card-image">
-                        <img src="<?php bloginfo('template_url'); ?>/img/blog-banner.png" alt="">
-                        <span class="card-title">Anime for Beginners: 20 Pieces of Essential Viewing</span>
-                        <a class="btn-blog btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
-                    </div>
-                    <div class="card-content">
-                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                    </div>
-                </div>
-
+            <div class="post-grid-excerpt">
+            As a result the last couple of eps haven’t been super exciting for me, because they’ve been more like settling into a familiar and comfortable routine.  We’re seeing character growth here but it’s subtle (apart from Shouyou, arguably). 
             </div>
 
-            <div class="col m4 s12">
-                <div class="card card-blog">
-                    <div class="card-image">
-                        <img src="<?php bloginfo('template_url'); ?>/img/blog-banner.png" alt="">
-                        <span class="card-title">Anime for Beginners: 20 Pieces of Essential Viewing</span>
-                        <a class="btn-blog btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
-                    </div>
-                    <div class="card-content">
-                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                    </div>
-                </div>
-
+            <div class="post-grid-date">
+            01·01·2023
             </div>
 
-            <div class="col m4 s12">
-                <div class="card card-blog">
-                    <div class="card-image">
-                        <img src="<?php bloginfo('template_url'); ?>/img/blog-banner.png" alt="">
-                        <span class="card-title">Anime for Beginners: 20 Pieces of Essential Viewing</span>
-                        <a class="btn-blog btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
-                    </div>
-                    <div class="card-content">
-                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                    </div>
-                </div>
-
+            <div class="boton-blog">
+                <a href="#" class="btn btn-blog"> Read >></a>
             </div>
 
-            <div class="col m4 s12">
-            <div class="card card-blog">
-                    <div class="card-image">
-                        <img src="<?php bloginfo('template_url'); ?>/img/blog-banner.png" alt="">
-                        <span class="card-title">Anime for Beginners: 20 Pieces of Essential Viewing</span>
-                        <a class="btn-blog btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
-                    </div>
-                    <div class="card-content">
-                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="col m4 s12">
-            <div class="card card-blog">
-                    <div class="card-image">
-                        <img src="<?php bloginfo('template_url'); ?>/img/blog-banner.png" alt="">
-                        <span class="card-title">Anime for Beginners: 20 Pieces of Essential Viewing</span>
-                        <a class="btn-blog btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
-                    </div>
-                    <div class="card-content">
-                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                    </div>
-                </div>
-
-            </div>
+            <hr class="linea-verde">
 
 
         </div>
 
 
-        </search>
+
+    </div>
 
 
+    </section>
 
 </main>
 
